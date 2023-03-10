@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "webpack",
   "version": "0.1.0",
-  "homepage":"http://maliganesh2011.github.io/TicTacToe",
+  "homepage": "http://maliganesh2011.github.io/TicTacToe",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,14 +14,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:dev": "webpack-dev-server",
     "build": "webpack",
     "watch": "webpack --watch",
-    "lint": "./node_modules/.bin/eslint ./src"
+    "lint": "eslint ./src"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +43,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliganesh2011/TicTacToe-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maliganesh2011/TicTacToe-main/issues"
   }
 }
